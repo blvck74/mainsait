@@ -1,0 +1,29 @@
+Array
+(
+    [id] => chatcmpl-Vohv74OQ87DliaASByGAo
+    [object] => chat.completion
+    [created] => 1733874800
+    [model] => gpt-3.5-turbo
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => Конечно, я постараюсь помочь. Пожалуйста, опишите проблему и предоставьте код, который вызывает проблему..
+                        )
+
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 23
+            [completion_tokens] => 53
+            [total_tokens] => 76
+        )
+
+)

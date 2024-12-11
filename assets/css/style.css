@@ -1,0 +1,263 @@
+/* Основной текст на странице */
+html, body {
+    color: #fff; /* Белый цвет текста по умолчанию */
+    font-family: 'Arial', sans-serif;
+    overflow-x: hidden; /* Убираем горизонтальную прокрутку */
+    height: 100%;           /* Занимаем всю высоту экрана */
+    margin: 0;              /* Убираем отступы */
+    display: flex;          /* Используем Flexbox */
+    flex-direction: column; /* Вертикальное расположение элементов */
+}
+
+
+/* Стили для панелей */
+.description-panel {
+    background-color: rgba(0, 0, 0, 0.4); /* Полупрозрачный фон */
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Стили для секции "Особенности" */
+.features .feature {
+    background: rgba(0, 0, 0, 0.7); /* Черный фон с прозрачностью */
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Заголовки */
+h1, h2, h3 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff !important;
+}
+
+/* Устанавливаем белый цвет текста в нужных местах */
+.text-white {
+    color: #fff !important;
+}
+
+/* Кнопка с зеленым градиентом */
+.btn-gradient {
+    background: linear-gradient(90deg, rgba(0, 255, 85, 1) 0%, rgba(0, 204, 255, 1) 100%);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-gradient:hover {
+    background: linear-gradient(90deg, rgba(0, 204, 255, 1) 0%, rgba(0, 255, 85, 1) 100%);
+    cursor: pointer;
+}
+
+/* Стили для кнопки */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+
+/* Основной контент */
+main {
+    flex-grow: 1;           /* Растягиваем основной контент на все доступное пространство */
+    padding-bottom: 60px;   /* Добавляем отступ снизу для корректного размещения подвала */
+}
+
+/* Подвал */
+footer {
+    background: none;       /* Убираем фон */
+    color: #333;            /* Цвет текста */
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+    position: relative;     /* Подвал не перекрывает контент */
+}
+
+/* Добавляем отступы и центрирование для текста */
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Добавляем стили для текста */
+p, h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+}
+
+
+/* Контейнер с контентом, который будет поверх фона */
+.container {
+    z-index: 1; /* Контент будет поверх фона */
+    position: relative;
+    max-width: 100%; /* Убедимся, что контейнер не выходит за пределы экрана */
+    margin-top: 100px; /* Добавляем отступ сверху для эстетики */
+}
+
+/* Заголовки */
+h1, h2 {
+    color: white;
+    text-align: center;
+}
+
+/* Стили для кнопок */
+.btn {
+    padding: 12px 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    text-transform: uppercase;
+    transition: background 0.3s ease;
+}
+
+/* Дополнительные стили для формы */
+.form-label {
+    color: white; /* Цвет меток на форме */
+}
+
+/* Стили для текста на странице */
+p, a {
+    color: white;
+    text-align: center;
+}
+
+/* Стили для полей формы */
+input[type="email"], input[type="password"] {
+    width: 100%; /* Растягиваем поля ввода на всю ширину */
+    padding: 10px;
+    margin-bottom: 10px; /* Отступ снизу */
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Легкая рамка */
+}
+
+input[type="email"]:focus, input[type="password"]:focus {
+    border-color: #007bff; /* Синие рамки при фокусе */
+    outline: none;
+}
+
+/* Стили для ссылки на регистрацию */
+a {
+    color: #007bff; /* Синий цвет для ссылок */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+/* Стили для кнопок */
+.btn-primary {
+    background: linear-gradient(90deg, #00bcd4, #4caf50); /* Голубой к зеленому */
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary {
+    background: linear-gradient(90deg, #f44336, #d32f2f); /* Красный градиент */
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+
+
+.btn-primary:hover, .btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.5);
+    transform: scale(1.05);
+}
+
+/* Включаем адаптивность кнопок */
+@media (max-width: 768px) {
+    .btn-primary, .btn-secondary {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+/* Стили для логотипа FixIt */
+.logo a {
+    font-family: 'Poppins', sans-serif; /* Используем шрифт Poppins */
+    font-size: 40px;  /* Размер шрифта */
+    font-weight: bold;
+    background: linear-gradient(90deg, #FF8C00, #FF4500); /* Градиент от оранжевого к красному */
+    -webkit-background-clip: text; /* Вырезаем текст под градиент */
+    color: transparent;  /* Делать цвет прозрачным, чтобы градиент был виден */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); /* Тень для текста */
+    letter-spacing: 1px; /* Немного увеличим расстояние между буквами */
+    display: inline-block;
+    transition: transform 0.3s ease; /* Плавное изменение при наведении */
+}
+
+.logo a:hover {
+    transform: scale(1.1); /* Эффект увеличения при наведении */
+}
+
+/* Кнопка регистрации */
+.btn-register {
+    background: linear-gradient(90deg, #00c6ff, #0072ff); /* Голубой градиент */
+    color: white;
+    border: none;
+}
+
+.btn-register:hover {
+    background: linear-gradient(90deg, #0072ff, #00c6ff);
+}
+
+/* Кнопка входа */
+.btn-login {
+    background: linear-gradient(90deg, #00b09b, #96c93d); /* Зеленый градиент */
+    color: white;
+    border: none;
+}
+
+.btn-login:hover {
+    background: linear-gradient(90deg, #96c93d, #00b09b);
+}
+
+/* Стили для полей ввода */
+.form-control {
+    max-width: 400px;   /* Установим максимальную ширину полей */
+    margin: 10px auto;  /* Центрируем поля на странице */
+    padding: 12px 20px; /* Увеличим отступы внутри поля для улучшения визуализации */
+    border-radius: 50px; /* Округлые углы */
+    border: 2px solid #ccc; /* Светлая граница */
+    background-color: #fff; /* Белый фон */
+    font-size: 16px;  /* Шрифт чуть крупнее для удобства */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Плавный переход при фокусе */
+}
+
+/* Стили для полей ввода при фокусе */
+.form-control:focus {
+    border-color: #0072ff; /* Голубая граница при фокусе */
+    box-shadow: 0 0 8px rgba(0, 114, 255, 0.5); /* Легкая тень вокруг поля */
+    outline: none; /* Убираем стандартный фокусный контур */
+}
+
+/* Стили для лейблов полей */
+.form-group label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff; /* Белый цвет текста лейблов */
+}
+

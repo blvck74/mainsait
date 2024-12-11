@@ -1,0 +1,200 @@
+/* Убираем фон страницы и задаем базовые стили */
+body {
+    background-color: #fff; /* Устанавливаем белый фон */
+    color: #000; /* Черный текст для читаемости */
+}
+
+/* Чат - левая панель */
+.chat-left {
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    height: 700px; /* Увеличенная высота */
+    overflow-y: auto; /* Прокрутка при переполнении */
+    position: relative;
+}
+
+/* История чатов - правая панель */
+.chat-history {
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    height: 700px; /* Увеличенная высота */
+    overflow-y: auto;
+    transition: margin-right 0.3s ease; /* Плавное сдвигание */
+}
+
+/* Стиль для панели сообщений */
+.chat-box {
+    flex-grow: 1;
+    max-height: 600px; /* Увеличенная высота панели сообщений */
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+/* Сообщения */
+.message {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    max-width: 80%;
+}
+
+.user-message {
+    background-color: #d4f8d4;
+    align-self: flex-end;
+}
+
+.ai-message {
+    background-color: #e6e6e6;
+    align-self: flex-start;
+}
+
+/* Ввод сообщений */
+.input-area textarea {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    resize: none;
+    height: 80px; /* Увеличенная высота textarea */
+    margin-bottom: 10px;
+}
+
+/* Кнопки действий */
+.btn-gradient-green {
+    background: linear-gradient(to right, #56ab2f, #a8e063);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none; /* Убираем границу */
+    transition: background 0.3s ease;
+}
+
+.btn-gradient-green:hover {
+    background: linear-gradient(to right, #4caf50, #8bc34a);
+}
+
+.btn-outline-info,
+.btn-outline-primary,
+.btn-outline-secondary {
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-info {
+    border: 2px solid #17a2b8;
+    color: #17a2b8;
+}
+
+.btn-outline-primary {
+    border: 2px solid #007bff;
+    color: #007bff;
+}
+
+.btn-outline-secondary {
+    border: 2px solid #6c757d;
+    color: #6c757d;
+}
+
+.btn-outline-info:hover {
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+/* Скрытие панели истории */
+.history-panel.d-none {
+    display: none;
+}
+
+/* Анимация сдвига панели истории */
+.chat-history.d-none {
+    margin-right: -100%;
+}
+
+/* Мобильная адаптивность */
+@media (max-width: 768px) {
+    .chat-left,
+    .chat-history {
+        height: auto; /* Автоматическая высота */
+    }
+
+    .chat-left,
+    .chat-history {
+        width: 100%; /* Панели занимают всю ширину */
+    }
+}
+
+/* Кнопка удаления чата */
+.delete-chat {
+    background: none;
+    border: none;
+    color: #dc3545; /* Красный цвет для удаления */
+    cursor: pointer;
+}
+
+.delete-chat:hover {
+    color: #a71d2a;
+}
+
+
+/* Анимация появления сообщений */
+.fade-in {
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeInUp 0.3s ease forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Стили для индикатора печати (ИИ думает) */
+.chat-typing-indicator {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #555;
+    font-style: italic;
+}
+
+/* Скрытый по умолчанию */
+.chat-typing-indicator.hidden {
+    display: none;
+}
+
+/* Дополнительные стили для чат-бокса */
+.chat-box {
+    position: relative;
+}
+
+.chat-box .message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.user-message {
+    background-color: #d4f8d4;
+    align-self: flex-end;
+}
+
+.ai-message {
+    background-color: #e6e6e6;
+    align-self: flex-start;
+}

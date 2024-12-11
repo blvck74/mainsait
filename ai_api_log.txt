@@ -1,0 +1,730 @@
+2024-12-11 03:36:44 - Response: Array
+(
+    [error] => Array
+        (
+            [message] => field Messages is required
+            [type] => one_api_error
+        )
+
+)
+
+2024-12-11 03:46:42 - Response: Array
+(
+    [id] => chatcmpl-uJ65KT9M1EBhumVS3p7yC
+    [object] => chat.completion
+    [created] => 1733878001
+    [model] => gpt-3.5-turbo
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => Приветик! Как я могу помочь вам сегодня??
+                        )
+
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 9
+            [completion_tokens] => 25
+            [total_tokens] => 34
+        )
+
+)
+
+2024-12-11 03:47:30 - Response: Array
+(
+    [id] => chatcmpl-TZO04SZS3eWxEJuoXXbqF
+    [object] => chat.completion
+    [created] => 1733878050
+    [model] => gpt-3.5-turbo
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => Здравствуйте! Чем я могу вам помочь??
+                        )
+
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 10
+            [completion_tokens] => 24
+            [total_tokens] => 34
+        )
+
+)
+
+2024-12-11 03:47:49 - Response: Array
+(
+    [id] => chatcmpl-HlpzqXAWrPz3jAwm57nUU
+    [object] => chat.completion
+    [created] => 1733878068
+    [model] => gpt-3.5-turbo
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => Конечно, о чем бы ты хотел поговорить??
+                        )
+
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 12
+            [completion_tokens] => 24
+            [total_tokens] => 36
+        )
+
+)
+
+2024-12-11 03:49:29 - Response: Array
+(
+    [id] => chatcmpl-UaKwgE0aqO3wyp4BEj5eo
+    [object] => chat.completion
+    [created] => 1733878168
+    [model] => gpt-3.5-turbo
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => I'm sorry, but I am an AI language model and I cannot understand what "ывфв" means. Please provide me with a clear and complete question or statement so that I can assist you..
+                        )
+
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 7
+            [completion_tokens] => 45
+            [total_tokens] => 52
+        )
+
+)
+
+2024-12-11 03:53:49 - Response: Array
+(
+    [id] => chatcmpl-1GWp5wdwj2FvrdiHKQccc
+    [object] => chat.completion
+    [created] => 1733878428
+    [model] => gpt-3.5-turbo
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => Привет! Как я могу помочь вам сегодня??
+                        )
+
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 10
+            [completion_tokens] => 24
+            [total_tokens] => 34
+        )
+
+)
+
+2024-12-11 03:54:16 - Response: Array
+(
+    [id] => chatcmpl-FiC3MbKO13smnnOMQzxw9
+    [object] => chat.completion
+    [created] => 1733878456
+    [model] => gpt-3.5-turbo
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => Здравствуйте! Как я могу помочь вам сегодня??
+                        )
+
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 8
+            [completion_tokens] => 27
+            [total_tokens] => 35
+        )
+
+)
+
+2024-12-11 04:12:04 - Response: Array
+(
+    [id] => chatcmpl-4HWReqQNHsoRJ2FiCFsPC
+    [object] => chat.completion
+    [created] => 1733879523
+    [model] => gpt-3.5-turbo
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => Извините, я не понимаю вашего сообщения. Можете уточнить, что вы имели в виду??
+                        )
+
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 7
+            [completion_tokens] => 40
+            [total_tokens] => 47
+        )
+
+)
+
+2024-12-11 04:17:55 - Response: Array
+(
+    [id] => chatcmpl-i7qThBhHO7OnBN2TJZzcI
+    [object] => chat.completion
+    [created] => 1733879875
+    [model] => gpt-3.5-turbo
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => Я не понимаю, что вы хотели сказать. Можете выразить свою мысль более ясно??
+                        )
+
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 9
+            [completion_tokens] => 41
+            [total_tokens] => 50
+        )
+
+)
+
+2024-12-11 04:25:29 - Response: Array
+(
+    [id] => chatcmpl-eshpYeuRXIsDCiy7uyfCz
+    [object] => chat.completion
+    [created] => 1733880328
+    [model] => gpt-3.5-turbo
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => Конечно, с удовольствием помогу! Чем именно нужна помощь??
+                        )
+
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 16
+            [completion_tokens] => 33
+            [total_tokens] => 49
+        )
+
+)
+
+2024-12-11 04:26:21 - Response: Array
+(
+    [id] => chatcmpl-VxuTfkJTEFw89NjZdvu18
+    [object] => chat.completion
+    [created] => 1733880381
+    [model] => gpt-3.5-turbo
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => Я не могу перейти в режим разработчика на питоне, так как я искусственный интеллект и работаю в ограниченной среде без доступа к различным режимам. Однако, если у вас есть установленный на компьютере Python, вы можете запустить его в режиме разработчика из командной строки, добавив флаг -i: 
+
+```
+python -i
+```
+
+Также существуют интегрированные среды разработки (IDE) для Python, такие как PyCharm, которые позволяют работать в режиме разработчика с помощью интерфейса пользователя..
+                        )
+
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 21
+            [completion_tokens] => 191
+            [total_tokens] => 212
+        )
+
+)
+
+2024-12-11 04:26:47 - Response: Array
+(
+    [id] => chatcmpl-EyJ2vp56ADxiJkn4oNbK4
+    [object] => chat.completion
+    [created] => 1733880407
+    [model] => gpt-3.5-turbo
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => Привет! Чем могу помочь??
+                        )
+
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 8
+            [completion_tokens] => 18
+            [total_tokens] => 26
+        )
+
+)
+
+2024-12-11 04:34:23 - Response: Array
+(
+    [id] => chatcmpl-ZBA6uai7DTHFLfBzTynx7
+    [object] => chat.completion
+    [created] => 1733880863
+    [model] => gpt-3.5-turbo
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => Привет! Как я могу помочь тебе сегодня??
+                        )
+
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 8
+            [completion_tokens] => 25
+            [total_tokens] => 33
+        )
+
+)
+
+2024-12-11 04:42:45 - Response: Array
+(
+    [id] => chatcmpl-NTnUiTHRbTG0tKJuOncZD
+    [object] => chat.completion
+    [created] => 1733881365
+    [model] => gpt-3.5-turbo
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => Привет! Чем могу помочь??
+                        )
+
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 10
+            [completion_tokens] => 18
+            [total_tokens] => 28
+        )
+
+)
+
+2024-12-11 04:42:58 - Response: Array
+(
+    [id] => chatcmpl-4lVrS2G1dDZB1dTSq6CXx
+    [object] => chat.completion
+    [created] => 1733881377
+    [model] => gpt-3.5-turbo
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => Я - виртуальный ассистент и обладаю такими навыками, как:
+
+1. Отвечать на вопросы и уточнять детали.
+2. Выполнять поисковые запросы и искать информацию в сети.
+3. Искать определенные файлы и документы на компьютере.
+4. Управлять задачами и напоминаниями.
+5. Создавать и редактировать документы.
+6. Отправлять и получать электронную почту.
+7. Переводить текст на другие языки.
+8. Поддерживать беседу на определенные темы.
+9. Помогать с постановкой задач на каждый день.
+10. Общаться с людьми и улучшать их настроение..
+                        )
+
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 14
+            [completion_tokens] => 229
+            [total_tokens] => 243
+        )
+
+)
+
+2024-12-11 04:43:14 - Response: Array
+(
+    [id] => chatcmpl-pmwDnM0VPBC282NYErbkB
+    [object] => chat.completion
+    [created] => 1733881394
+    [model] => gpt-3.5-turbo
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => Я - это глубокая нейронная сеть, обученная на огромном объеме текстовых данных для обеспечения более точных и информативных ответов..
+                        )
+
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 14
+            [completion_tokens] => 57
+            [total_tokens] => 71
+        )
+
+)
+
+2024-12-11 04:45:03 - Response: Array
+(
+    [id] => chatcmpl-Ig0UGBd8i0YVsvghStAma
+    [object] => chat.completion
+    [created] => 1733881502
+    [model] => gpt-3.5-turbo
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => те работать, не сдавайся на полпути. Верь в себя и свои силы, двигайся к своей цели, учись на своих ошибках и стремись к самосовершенствованию. Будь целеустремленным, находи новые и интересные способы достижения своих целей, и не забывай, что каждый успех приходит после множества неудач и трудных испытаний. Никогда не бойся трудностей, потому что именно через них мы растем и развиваемся. Важно помнить, что все мы можем стать лучше, если только будем стараться..
+                        )
+
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 8
+            [completion_tokens] => 205
+            [total_tokens] => 213
+        )
+
+)
+
+2024-12-11 04:51:01 - Response: Array
+(
+    [id] => chatcmpl-TIqIj5lmQuXGzGZ9xrr5q
+    [object] => chat.completion
+    [created] => 1733881861
+    [model] => gpt-3.5-turbo
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => Привет! Да, я - искусственный интеллект. Чем могу помочь??
+                        )
+
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 13
+            [completion_tokens] => 36
+            [total_tokens] => 49
+        )
+
+)
+
+2024-12-11 04:51:15 - Response: Array
+(
+    [id] => chatcmpl-0biU6TkpqnyUzhWay0zWg
+    [object] => chat.completion
+    [created] => 1733881875
+    [model] => gpt-3.5-turbo
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => Я модель языкового ИИ, разработанная OpenAI, и моя версия называется GPT-3.5. Я создана для обработки и генерации текста, отвечая на вопросы и предоставляя информацию на самые разные темы. Чем могу помочь??
+                        )
+
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 12
+            [completion_tokens] => 93
+            [total_tokens] => 105
+        )
+
+)
+
+2024-12-11 04:51:33 - Response: Array
+(
+    [id] => chatcmpl-ITwpWi64PiU0yj5mjZmjc
+    [object] => chat.completion
+    [created] => 1733881893
+    [model] => gpt-3.5-turbo
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => Я - виртуальный ассистент, созданный для помощи людям в ответах на их вопросы и выполнении задач. Я умею отвечать на различные запросы, предоставлять информацию, помогать с поиском нужной информации и многое другое. Моя цель - сделать вашу жизнь проще и удобнее. Если у вас есть какие-то вопросы, не стесняйтесь задавать их мне!!
+                        )
+
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 19
+            [completion_tokens] => 142
+            [total_tokens] => 161
+        )
+
+)
+
+2024-12-11 04:52:36 - Response: Array
+(
+    [id] => chatcmpl-HgMiVj8bQHI9kWXB2MQye
+    [object] => chat.completion
+    [created] => 1733881955
+    [model] => gpt-3.5-turbo
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => Привет! Как я могу Вам помочь??
+                        )
+
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 8
+            [completion_tokens] => 20
+            [total_tokens] => 28
+        )
+
+)
+
+2024-12-11 04:52:56 - Response: Array
+(
+    [id] => chatcmpl-GQTU0McQYqbuGkkLM9D8S
+    [object] => chat.completion
+    [created] => 1733881975
+    [model] => gpt-3.5-turbo
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => print("Hello, World!")!")
+                        )
+
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 19
+            [completion_tokens] => 11
+            [total_tokens] => 30
+        )
+
+)
+
+2024-12-11 05:09:55 - Response: Array
+(
+    [id] => chatcmpl-yY9IcGzCSJCcXRsZ4YFUP
+    [object] => chat.completion
+    [created] => 1733882995
+    [model] => gpt-3.5-turbo
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => Привет! Я рада видеть, что ты обратился ко мне. Чем я могу тебе помочь??
+                        )
+
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 7
+            [completion_tokens] => 42
+            [total_tokens] => 49
+        )
+
+)
+
+2024-12-11 05:10:13 - Response: Array
+(
+    [id] => chatcmpl-Gvu2Fy8fdSuiMUpNlndgx
+    [object] => chat.completion
+    [created] => 1733883012
+    [model] => gpt-3.5-turbo
+    [choices] => Array
+        (
+            [0] => Array
+                (
+                    [index] => 0
+                    [message] => Array
+                        (
+                            [role] => assistant
+                            [content] => Конечно! Вот пример простенького кода на Python:
+
+```python
+# Программа для сложения двух чисел
+
+num1 = 5
+num2 = 3
+
+sum = num1 + num2
+
+print("Сумма чисел", num1, "и", num2, "равна:", sum)
+```
+
+Этот код выполняет сложение двух чисел (5 и 3) и выводит результат на экран..
+                        )
+
+                )
+
+        )
+
+    [usage] => Array
+        (
+            [prompt_tokens] => 26
+            [completion_tokens] => 115
+            [total_tokens] => 141
+        )
+
+)
+
